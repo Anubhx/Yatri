@@ -1,0 +1,47 @@
+#Yatri-Genie Application Documentation
+##Overview
+Yatri-Genie is a travel management application designed to offer users a seamless and intuitive platform to manage their travel itineraries. With Yatri-Genie, users can create accounts, log in, manage personal details, check available travel packages, book hotels, view booked hotels, and much more. This documentation outlines the system's architecture, key functionalities, and provides a guide on how to interact with the application.
+
+##System Architecture
+High-Level Design
+The application is structured around a centralized system that interacts with various components to facilitate travel management functionalities. The main components include:
+
+User Authentication: Manages user login, signup, and password recovery functionalities.
+Personal Details Management: Allows users to add, update, view, and delete personal details.
+Travel Package Management: Enables users to check available packages, view and book travel packages.
+Hotel Booking System: Provides functionalities to book hotels, view booked hotels, and manage bookings.
+Low-Level Design
+The application's low-level design is realized through the implementation of several classes, each serving a specific purpose in the system. Key classes include:
+
+Login: Manages user login functionality.
+Signup: Handles new user registrations.
+Loading: Displays a loading screen while the application fetches data.
+Dashboard: Serves as the main interface for navigating through the application's functionalities.
+About: Provides information about the application.
+BalanceScreen: Manages user balances and transactions.
+Destination: Displays available destinations and details.
+ViewBookedHotel: Shows details of booked hotels.
+BookHotel: Facilitates hotel booking.
+viewbookedpackage: Displays details of booked packages.
+ViewPersonalDetails: Shows user's personal details and allows for editing.
+##Key Functionalities
+User Authentication
+Login: Users can log in using their username and password. Incorrect credentials will prompt an error message.
+Signup: New users can create an account by providing required details and selecting a security question for password recovery.
+Forget Password: Users can recover their password by answering their security question.
+##Personal Details Management
+Users can add and update their personal details, including name, ID, gender, country, address, phone, and email.
+Personal details can be viewed and deleted from the system.
+Travel Package and Hotel Booking
+Users can view available travel packages, including destinations and activities.
+Booking functionalities allow users to book travel packages and hotels.
+Booked packages and hotels can be viewed, providing details of the bookings.
+##Additional Features
+About: Provides information about Yatri-Genie, including version and developer contact information.
+Balance Management: Users can view their balance, add money, withdraw money, and view transactions.
+##Getting Started
+To start using Yatri-Genie, clone the repository from GitHub and open the project in your Java IDE. Run the Login.java class to launch the application. Users can sign up or log in to access the dashboard and explore various functionalities.
+
+Conclusion
+Yatri-Genie aims to simplify travel management by providing a comprehensive platform for itinerary planning and booking. This documentation serves as a guide to understanding the application's architecture and functionalities. For further details or support, users can refer to the "About" section within the application.
+
